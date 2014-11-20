@@ -103,6 +103,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		640EC3861A07EE7100543FE3 /* CryptoSwiftOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CryptoSwiftOSX-Info.plist"; path = "/Users/manuel/Documents/Privat/LosungenSwift/CryptoSwift/CryptoSwiftOSX-Info.plist"; sourceTree = "<absolute>"; };
 		750A545F1992D2680017DA75 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		75100F8E19B0BC890005C5F5 /* CipherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CipherTests.swift; sourceTree = "<group>"; };
 		75153D4119AA3C7900750381 /* SHA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA2.swift; sourceTree = "<group>"; };
@@ -173,6 +174,7 @@
 				754BE46419693E190098E6F3 /* CryptoSwiftTests */,
 				754BE45619693E190098E6F3 /* Products */,
 				24B0BBA29D734E62809E53BC /* Frameworks */,
+				640EC3861A07EE7100543FE3 /* CryptoSwiftOSX-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -538,6 +540,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -561,6 +564,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
